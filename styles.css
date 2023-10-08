@@ -300,3 +300,59 @@ body {
     border: transparent
 
   }
+
+
+  @media only screen and (max-width:738px) {
+    body {
+        margin-top: -78px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background: var(--White, #FFF);
+    }
+    .your-result {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .summary {
+        display: block;
+        width: 100%;
+        margin-top: 500px;
+    }
+
+    #summary-header {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 32px;
+        font-weight: 800;
+    }
+
+    .reaction {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .memory {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .verbal {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visual {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .continue-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
